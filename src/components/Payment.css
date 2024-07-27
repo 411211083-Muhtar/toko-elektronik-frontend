@@ -1,0 +1,17 @@
+.payment-container {
+    padding: 80px;
+  }
+  
+  .payment-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .payment-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .payment-actions .btn {
+    width: 48%;
+  }
+  

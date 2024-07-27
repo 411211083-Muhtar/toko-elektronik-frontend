@@ -1,0 +1,20 @@
+/* CSS untuk halaman utama dengan gambar background */
+.main-background {
+    background-image: url('../assets/Background.jpg'); /* Ganti dengan path gambar Anda */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding-top: 80px; /* Sesuaikan tinggi minimum agar background menutupi seluruh viewport */
+  }
+  
+  .main-background h1 {
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .main-background p {
+    color: yellow;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }

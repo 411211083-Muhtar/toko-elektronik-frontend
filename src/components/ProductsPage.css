@@ -1,0 +1,55 @@
+/* Kontainer untuk semua produk */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Setiap produk dalam kotak */
+.product-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: calc(33.333% - 20px); /* Tiga produk per baris */
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Gambar produk */
+.product-item img {
+  width: 100%;
+  height: auto;
+  max-height: 200px; /* Atur tinggi maksimum gambar */
+  object-fit: cover;
+}
+
+/* Nama produk */
+.product-item h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Harga produk */
+.product-item p.price {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Tombol */
+.product-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-item button:hover {
+  background-color: #0056b3;
+}

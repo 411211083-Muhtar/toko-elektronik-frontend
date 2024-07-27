@@ -1,0 +1,15 @@
+.sign-in-container {
+    padding: 150px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .sign-in-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .sign-in-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  

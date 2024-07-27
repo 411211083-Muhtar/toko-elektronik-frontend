@@ -1,0 +1,21 @@
+.orders-container {
+    padding: 150px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .orders-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orders-list li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .orders-list li h2 {
+    margin-top: 0;
+  }
+  

@@ -1,0 +1,29 @@
+/* .badge {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+} */
+
+.products-dropdown .dropdown-menu-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.products-dropdown .dropdown-column {
+  margin-right: 30px;
+}
+
+.products-dropdown .dropdown-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+  
+.products-dropdown .dropdown-column .dropdown-item {
+  display: block;
+  padding: 5px 0;
+}

@@ -1,0 +1,35 @@
+.checkout-container {
+    padding: 80px;
+  }
+  
+  .checkout-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .checkout-summary {
+    margin-top: 30px;
+  }
+  
+  .checkout-summary h2 {
+    margin-bottom: 15px;
+  }
+  
+  .checkout-summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  .checkout-summary li {
+    margin-bottom: 5px;
+  }
+  
+  .checkout-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkout-actions .btn {
+    width: 48%;
+  }
+  
